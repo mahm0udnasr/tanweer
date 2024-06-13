@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" id="main">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- basic meta of website -->
+    <title>تنوير التعليمية</title>
+    <meta name="title" content="تنوير التعليمية">
+    <meta name="description" content="مرحبا بكم نحن منصه تنوير لتعليم اولياء الأمور كيفية حل مشاكل اطفالهم الذين يعانون من التوحد">
+    <meta name="keywords" content="تنوير, توحد, اطفال, اطفال التوحد, تنوير للتوحد, علاج التوحد, مشكله التوحد, مشكلة التوحد, مشاكل التوحد, حل مشاكل التوحد, مشاكل الاطفال">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <!-- import font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- import google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <!-- Lottie Files -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- bootstart files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- import css file -->
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+<body>
+    <div class="info" id="infoBtn">
+        <i class="fa-solid fa-question"></i>
+    </div>
+    <!-- ------------------
+        HEADER-- Start
+    -------------------- -->
+    <header class="header">
+    <!-- ------------------
+        NAVBAR -- Start
+    -------------------- -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="logo">
+            <img src="./assets/images/logo-light-1.png" alt="logo" id="logo">
+        </a>
+        <div class="nav-container">
+            <ul class="nav-list" id="navList">
+                <li class="nav-item"><a class="nav-link" href="#">الرئيسية</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
+                <li class="nav-item"><a class="nav-link" href="#courses">التدريبات</a></li>
+                <li class="nav-item"><a class="nav-link" href="#books">الكتب</a></li>
+            </ul>
+            <i class="fa-solid fa-bars menu" id="menu"></i>
+        </div>
+
+        <div class="search-btn" id="loactionBtn">
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+    </nav>
+    <!-- ------------------
+        NAVBAR -- //End//
+    -------------------- -->
+    <!-- ------------------
+        banner -- Start
+    -------------------- -->
+    <div class="container">
+        <div class="banner">
+            <div class="conetnt-side">
+                <h1 class="h1 banner-title">
+                اهلا بك في,
+                    <span>تنوير التعليمية</span>
+                </h1>
+                <p class="p banner-desc">
+                    منصة تنوير التعليمية متخصصة في تقديم كورسات وكتب لمساعدة أولياء الأمور على حل مشاكل التوحد لدى أطفالهم. نقدم حلولاً متنوعة وشاملة للتحديات المختلفة. انضم إلينا لتعزيز مهارات طفلك وتحقيق تطوره الأمثل.
+                </p>
+                <a href="#contact" class="contact-btn">تواصل الأن</a>
+            </div>
+            <div class="animation-side">
+                <lottie-player id="anim-tanweer" src="./tanweer.json" background="transparent"  speed=".5" loop class="banner-lottie" autoplay></lottie-player>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------
+        banner -- //End//
+    -------------------- -->
+    </header>
+    <!-- ------------------
+        HEADER-- //End//
+    -------------------- -->
+    <!-- image silder start -->
+    <div class="container">
+        <!-- <div class="image-slider"></div> -->
+        <div id="carouselExampleDark" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/boys/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                    <h5>المشكلة الأولي</h5>
+                    <p>يمكن حل تلك المشكلة عن طريق بعض الخطوات العملية التي تساعد علي تحسين حياة طفلك من خلال اشياء كثيرة</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/boys/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                    <h5>المشكلة الثانية</h5>
+                    <p>يمكن حل تلك المشكلة عن طريق بعض الخطوات العملية التي تساعد علي تحسين حياة طفلك من خلال اشياء كثيرة</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/boys/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                    <h5>المشكلة الثالثة</h5>
+                    <p>يمكن حل تلك المشكلة عن طريق بعض الخطوات العملية التي تساعد علي تحسين حياة طفلك من خلال اشياء كثيرة</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- image silder end -->
+    <div class="container">
+        <!-- ------------------
+            ABOUT-- Start
+        -------------------- -->
+        <div class="about" id="about">
+            <div class="about__title">
+                من 
+                <span>نحن</span>
+            </div>
+            <div class="about__contain">
+                <div class="about__content">
+                    <h1 class="h1 about__Ctitle">معاً لتعزيز مهارة طفلك</h1>
+                    <p class="p about__Cdesc">
+                        <span>"تنوير التعليمية"</span>
+                        هي منصة متخصصة في دعم أولياء الأمور لمساعدتهم في معالجة أطفالهم الذين يعانون من التوحد. نقدم كورسات تدريبية ذات جودة عالية وكتب متخصصة تهدف إلى تطوير مهارات الأطفال وتعزيز قدرتهم على التفاعل الاجتماعي. كما نوفر حلولاً لمشكلات شائعة تواجهها الأسر في رحلة التعامل مع التوحد، مع التركيز على توفير موارد تعليمية مبتكرة ومفيدة. نسعى إلى خلق بيئة تعليمية شاملة تدعم تقدم الأطفال وتساهم في تحقيق إمكاناتهم الكاملة.
+                    </p>
+                </div>
+                <div class="about__image">
+                    <img src="./assets/boys/1.jpg" alt="aboutImage">
+                </div>
+            </div>
+        </div>
+        <!-- ------------------
+            ABOUT-- //End//
+        -------------------- -->
+        <!-- hr -->
+        <hr>
+        <!--// hr //-->
+        <!-- ------------------
+            Courses-- Start
+        -------------------- -->
+        <div class="courses" id="courses">
+            <div class="main__title">
+                التدريبات
+            </div>
+            <div class="courses__list">
+                <!-- start course box -->
+                <div class="coursebox">
+                    <div class="h__coursebox">
+                        <img src="https://i.ytimg.com/vi/NQrwLyRxfpg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnsKqi9jvU8JqT4Plhu_ODIfWIBg" alt="courses">
+                    </div>
+                    <div class="b__coursebox">
+                        <div class="title__coursebox">معلومات عن التوحد</div>
+                        <div class="details">
+                            <div class="language">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <span class="lang__select">العربية</span>
+                            </div>
+                            <div class="time">
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time__select">37س</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f__course">
+                        <div class="btn">الدخول للدورة</div>
+                    </div>
+                </div>
+                <!--// end course box //-->
+
+                <!-- start course box -->
+                <div class="coursebox">
+                    <div class="h__coursebox">
+                        <img src="https://i.ytimg.com/vi/2G4t2fOhn68/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzTM8HmSLjUkdneBV2c6s_CQm9fw" alt="courses">
+                    </div>
+                    <div class="b__coursebox">
+                        <div class="title__coursebox">خطط علاجية لتدريب</div>
+                        <div class="details">
+                            <div class="language">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <span class="lang__select">العربية</span>
+                            </div>
+                            <div class="time">
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time__select">3س</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f__course">
+                        <div class="btn">الدخول للدورة</div>
+                    </div>
+                </div>
+                <!--// end course box //-->
+
+                <!-- start course box -->
+                <div class="coursebox">
+                    <div class="h__coursebox">
+                        <img src="https://i.ytimg.com/vi/Q6cbc5CvtlA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0GD7qhPB5-Eydt3bho2M2M5bPgQ" alt="courses">
+                    </div>
+                    <div class="b__coursebox">
+                        <div class="title__coursebox">أندلسية لعلاج التوحد</div>
+                        <div class="details">
+                            <div class="language">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <span class="lang__select">العربية</span>
+                            </div>
+                            <div class="time">
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time__select">16س</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f__course">
+                        <div class="btn">الدخول للدورة</div>
+                    </div>
+                </div>
+                <!--// end course box //-->
+
+                <!-- start course box -->
+                <div class="coursebox viewmore" id="allCourses">
+                    عرض المزيد <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <!--// end course box //-->
+            </div>
+        </div>
+        <!-- ------------------
+            Courses-- //End//
+        -------------------- -->
+        <!-- hr -->
+        <hr>
+        <!--// hr //-->
+        <!-- ------------------
+            Books-- Start
+        -------------------- -->
+        <div class="books" id="books">
+            <div class="main__title">
+                الكتب
+            </div>
+            <div class="books__list">
+
+                <!-- start book box -->
+                <div class="bookbox">
+                    <div class="h__bookbox">
+                        <img src="https://i0.wp.com/maktbah.net/wp-content/uploads/2022/03/%D8%A7%D9%94%D9%88%D8%AA%D9%8A%D8%B2%D9%85_%D8%AF%D9%84%D9%8A%D9%84_%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84_%D9%85%D8%B9_%D8%AD%D8%A7%D9%84%D8%A7%D8%AA_%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D8%AF-%D9%84%D8%B7%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%B1%D8%A8%D9%8A%D9%86%D9%8A-%D9%85%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D9%86%D8%AA-www.Maktbah.net-3.jpg?w=365&ssl=1" alt="books">
+                    </div>
+                    <div class="b__bookbox">
+                        <div class="title__bookbox">كتاب أوتيزم</div>
+                    </div>
+                    <div class="f__book">
+                        <a href="https://filebin.net/1p1g626b5yi4xvc6/___________________________________.pdf" class="btn">تحميل الكتاب</a>
+                    </div>
+                </div>
+                <!--// end book box //-->
+
+                <!-- start book box -->
+                <div class="bookbox">
+                    <div class="h__bookbox">
+                        <img src="https://foulabook.com/storage/photo/68133.2020-04-01.1585714888.jpg" alt="books">
+                    </div>
+                    <div class="b__bookbox">
+                        <div class="title__bookbox">كتاب علاج التوحد</div>
+                    </div>
+                    <div class="f__book">
+                        <a href="https://filebin.net/1p1g626b5yi4xvc6/__________________________________82742_Foulabook_com_.pdf" class="btn">تحميل الكتاب</a>
+                    </div>
+                </div>
+                <!--// end book box //-->
+
+                <!-- start book box -->
+                <div class="bookbox">
+                    <div class="h__bookbox">
+                        <img src="https://daralthaqafa.com/Items/634615411223393792.jpg" alt="books">
+                    </div>
+                    <div class="b__bookbox">
+                        <div class="title__bookbox">التوحد ونظرية العقل</div>
+                    </div>
+                    <div class="f__book">
+                        <a href="https://filebin.net/1p1g626b5yi4xvc6/Noor-Book.com_______________________1_.pdf" class="btn">تحميل الكتاب</a>
+                    </div>
+                </div>
+                <!--// end book box //-->
+
+                <!-- start book box -->
+                <div class="bookbox">
+                    <div class="h__bookbox">
+                        <img src="https://books4arab.me/wp-content/uploads/2019/11/885-200x300.jpg" alt="books">
+                    </div>
+                    <div class="b__bookbox">
+                        <div class="title__bookbox">علاج التوحد الطفولي</div>
+                    </div>
+                    <div class="f__book">
+                        <a href="https://filebin.net/1p1g626b5yi4xvc6/Noor_Book_com___________________________________________2_.pdf" class="btn">تحميل الكتاب</a>
+                    </div>
+                </div>
+                <!--// end book box //-->
+
+                <!-- start books box -->
+                <div class="bookbox viewmore" id="allBooks">
+                    عرض المزيد <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <!--// end books box //-->
+
+            </div>
+        </div>
+        <!-- ------------------
+            Books-- //End//
+        -------------------- -->
+        <!-- hr -->
+        <hr>
+        <!--// hr //-->
+        <!-- ------------------
+            Contact-- Start
+        -------------------- -->
+        <div class="contact" id="contact">
+            <div class="main__title">
+                تواصل معنا
+            </div>
+            <div class="contact__sides">
+                <div class="contact__right">
+                    <div class="time">
+                        <i class="fa-regular fa-clock"></i>
+                        <span class="contact__title">24 ساعة</span>
+                    </div>
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="contact__title">اليمن, داعم لجميع مراكز التوحد</span>
+                    </div>
+                </div>
+                <div class="contact__left">
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#" class="contact__title">+123-4567-7890<a>
+                    </div>
+                    <div class="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#" class="contact__title">support@admin.com<a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------
+            Contact-- //End//
+        -------------------- -->
+    </div>
+        <!-- footer start -->
+        <footer class="footer">
+            © كل الحقوق محفوظة لدي منصة  <span> تنوير التعليمية</span>
+        </footer>
+        <!--// footer end //-->
+    <!-- get a js file -->
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
