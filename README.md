@@ -1,1 +1,1 @@
-# Open <a href="tanwer.rf.gd" target="_blank">Demo</a>
+# Open <a href="tanwer.rf.gd">Demo</a>
